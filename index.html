@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aulia's Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section class="banner">
+            <header>
+                <a href="#" class="logo">Port<span>folio</span></a>
+                <div class="toggle"></div>
+            </header>
+            <img src="FotoDiri.png" class="girl" />
+            <div class="content">
+                <div class="contentBx">
+                    <h4>Hello,</h4>
+                    <h2>I'm <span>Aulia Intan Shafira</span></h2>
+                    <h3>Junior Web Developer</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore quis vitae, labore repellendus voluptatem autem cum natus, repellat vel perferendis voluptas est dignissimos ratione sed odit consequatur
+                        voluptatibus? Omnis?
+                    </p>
+                    <a href="#">Hire Me</a>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+            <ul class="sci">
+                <li>
+                    <a href="#"><img src="facebook.png" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="twitter.png" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="instagram.png" /></a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Word</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section>
+        <script>
+            let banner = document.querySelector(".banner");
+            let menutoggle = document.querySelector(".toggle");
+            menutoggle.onclick = function () {
+                menutoggle.classList.toggle("active");
+                banner.classList.toggle("active");
+            };
+        </script>
+    </body>
+</html>
